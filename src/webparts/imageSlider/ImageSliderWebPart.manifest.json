@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b863e345-07e2-4a00-ab9a-8a17af5f0326",
+  "alias": "ImageSliderWebPart",
+  "componentType": "WebPart",
+ 
+  "version": "*",
+  "manifestVersion": 2,
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",  
+    "group": { "default": "Advanced" },
+    "title": { "default": "imageSlider" },
+    "description": { "default": "imageSlider description" },
+    "officeFabricIconFontName": "PhotoCollection",
+
+    "properties": {
+      "description": "imageSlider", 
+
+  "desktopSlidesCount": 3,
+  "desktopSpaceBetween": "20",
+  "desktopSliderHeight": "350",
+
+  "tabletSlidesCount": 2,
+  "tabletSpaceBetween": "15",
+  "tabletSliderHeight": "300",
+
+  "mobileSlidesCount": 1,
+  "mobileSpaceBetween": "10",
+  "mobileSliderHeight": "270",
+
+  "showPagination": true,
+  "showNavigationArrows": true 
+    }
+  }]
+}
